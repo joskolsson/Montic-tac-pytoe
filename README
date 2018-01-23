@@ -1,0 +1,10 @@
+Requirements:
+python 2.7
+pygame
+timidity
+(for Debian based distributions : 'sudo apt-get install python-pygame timidity' )
+
+To execute the program, it needs to be executable : 'chmod u+x exec'
+run it using : './exec'
+Or in X you can click on the exec file
+

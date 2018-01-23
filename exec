@@ -1,0 +1,12 @@
+#!/usr/bin/python
+
+import arena as ar
+import sys
+
+if len(sys.argv)==2 and sys.argv[1]=="-c":
+    a=ar.Arena(True)
+else:
+    a=ar.Arena(False)
+    
+
+print a.play()
